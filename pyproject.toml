@@ -9,5 +9,6 @@ dependencies = [
     "pydantic[standard]",
     "sqlalchemy[standard]",
     "sqlmodel",
+    "pytest",
     "uvicorn[standard]>=0.24.0",
 ]
