@@ -1,5 +1,5 @@
 from typing import List
-from db import ItemBase, ItemModel, SessionDep
+from src.db import ItemBase, ItemModel, SessionDep
 from fastapi import APIRouter, HTTPException
 from sqlmodel import select
 
